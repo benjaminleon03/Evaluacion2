@@ -1,15 +1,9 @@
 import requests
 
-# ==========================
-# CONFIGURACIÓN
-# ==========================
-API_KEY = "91e8b24f-7c76-4419-9cda-3d31a44ac6d5"  # reemplázala por tu key de Graphhopper
+API_KEY = "91e8b24f-7c76-4419-9cda-3d31a44ac6d5"  
 URL_ROUTE = "https://graphhopper.com/api/1/route"
 URL_GEOCODE = "https://graphhopper.com/api/1/geocode"
 
-# ==========================
-# FUNCIONES
-# ==========================
 
 def obtener_coordenadas(nombre):
     """Convierte un nombre de lugar en coordenadas (lat, lon) usando Graphhopper Geocoding API."""
